@@ -13,12 +13,12 @@ class CreateProfilesTable extends Migration
      */
     public function up()
     {
-        Schema::create('Profiles', function (Blueprint $table) {
+        Schema::create('profiles', function (Blueprint $table) {
             $table->bigIncrements('id');
-            $table->string('名前(name)');
-            $table->string('性別(gender)');
-            $table->string('趣味(hobby)');
-            $table->string('自己紹介(introduction)')->nullable();
+            $table->string('name');
+            $table->string('gender');
+            $table->string('hobby');
+            $table->string('introduction')->nullable();
             $table->timestamps();
         });
     }
