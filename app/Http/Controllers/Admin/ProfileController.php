@@ -68,14 +68,14 @@ class ProfileController extends Controller
         
         
         //if ($request->remove == 'true') {
-        //$profile_form['image_path'] = null;
-        //    
+            //$profile_form['image_path'] = null;
+            
         //} elseif ($request->file('image')) {
-        //    $path = $request->file('image')->store('public/image');
-        //    $profile_form['image_path'] = basename($path);
-        //    
+            //$path = $request->file('image')->store('public/image');
+            //$profile_form['image_path'] = basename($path);
+            
         //} else {
-        //　　$profile_form['image_path'] = $profile->image_path;
+            //$profile_form['image_path'] = $profile->image_path;
             
         //}
         
